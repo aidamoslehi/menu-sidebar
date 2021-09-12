@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import "bootstrap";
+import "bootstrap/js/dist/util";
+import "bootstrap/js/dist/alert";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+import "../src/fonts/Poppins-Regular.ttf";
+import "../src/fonts/Roboto-Regular.ttf";
+import "../src/fonts/OpenSans-Regular.ttf"
+import "../src/fontawesome-free-5.15.3-web/css/all.css";
+
+
+ import Sidebar from './Components/Sidebar/Sidebar.jsx';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Sidebar />
   </React.StrictMode>,
   document.getElementById('root')
 );
